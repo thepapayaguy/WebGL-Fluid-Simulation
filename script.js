@@ -57,14 +57,14 @@ const canvas = document.getElementsByTagName('canvas')[0];
 resizeCanvas();
 
 let config = {
-    SIM_RESOLUTION: 128,
-    DYE_RESOLUTION: 1024,
-    CAPTURE_RESOLUTION: 512,
-    DENSITY_DISSIPATION: 1,
-    VELOCITY_DISSIPATION: 0.2,
-    PRESSURE: 0.8,
+    SIM_RESOLUTION: 64,
+    DYE_RESOLUTION: 512,
+    CAPTURE_RESOLUTION: 216,
+    DENSITY_DISSIPATION: 1.6,
+    VELOCITY_DISSIPATION: 0.8,
+    PRESSURE: 0.4,
     PRESSURE_ITERATIONS: 20,
-    CURL: 30,
+    CURL: 0,
     SPLAT_RADIUS: 0.25,
     SPLAT_FORCE: 6000,
     SHADING: true,
